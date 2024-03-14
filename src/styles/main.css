@@ -2,7 +2,9 @@
   --cell-size: 20vmin;
   --gap-size: 8px;
   --br: 8px;
-  --сoor-x: 2;
+  /* --bg-tile: 0;
+  --text-color-tile: 0; */
+  --coor-x: 2;
   --coor-y: 0;
 }
 * {
@@ -42,8 +44,8 @@ body {
   height: var(--cell-size);
   font-size: 7vmin;
   font-weight: bold;
-  background-color: #fff;
-  color: black;
+  background-color: hsl(25, 60%, var(--bg-tile));
+  color: hsl(25, 25%, var(--text-color-tile));
   border-radius: var(--br);
   transition: 0.2s;
   animation: show-cell 0.3s;
